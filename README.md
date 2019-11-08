@@ -9,6 +9,7 @@
 #### Concepts
 
 * loops
+* variable scope
 
 #### Technologies Used
 

@@ -34,15 +34,21 @@ do {
 } while (num == 0);
 
 * Variable scope
+
+This is mentioned because the boolean variable turnedOn is used to define the condition for the first do-while loop and is then used in the next method as the break case when it is changed back to a false value. However the true value is not stored from the first method and has to be redeclared in the method for pressing buttons because it falls out of scope.
+
 * Switch
 
+Because we are returning the same result ("BOOP!") for multiple conditions a switch is easier to write than an if else statement.
 
 #### Technologies Used
 
 * Java
-* While loops
+* Spotify
 * Eclipse IDE
 * Atom
 * Shell
 
 #### Lessons Learned
+
+See Variable Scope notes above.

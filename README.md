@@ -13,7 +13,8 @@ Once the virtual device has been powered on, the buttons become enabled and retu
 
 * Loops
 
-do-while Loops
+##### do-while Loops
+
 The do-while loop is similar to the while loop, except the condition is placed after the loop body.
 
 do {

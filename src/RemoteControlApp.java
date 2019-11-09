@@ -103,8 +103,10 @@ public class RemoteControlApp {
 		case "OFF":
 		case "off":
 			turnedOn = false;
+			kb.close();
 			break;
 		default:
+			System.out.println("Command not recognized");
 			buttonPressed = null;
 		} 	
 			
